@@ -1,0 +1,162 @@
+body,div,header,nav,a,span,p,i,b,ul,li,footer{
+	padding:0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+.headtop{
+	width: 1200px;
+	height:100px;
+	/*background-color: palegoldenrod;*/
+	margin: 0 auto;
+	position: relative;
+}
+.headtop .logo{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	margin-top: 10px;
+}
+.headtop .inp{
+	width: 300px;
+	height: 80px;
+	/*background-color: palegreen;*/
+	float: left;
+	margin-left: 610px;
+	margin-top:42px ;
+}
+.headtop .inp input{
+	width: 350px;
+	height: 26px;
+	border: 1px solid #dedede;
+	color:#cbc9c9;
+	border-radius: 50px;
+	padding-left: 4px;
+	outline: none;
+}
+.headtop .inp img{
+	width: 18px;
+	height: 20px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 328px;	
+}
+.headtop .goods{
+	width: 150px;
+	height: 38px;
+	background-color: #ff6537;
+	float: right;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+.headtop .goods .left{
+	width: 38px;
+	height: 38px;
+	background-color: #e06122;
+	border-bottom-left-radius:10px;
+	border-top-left-radius:10px;
+	overflow: hidden;
+}
+.headtop .goods .left img{
+	width:150px;
+	height: 965px;
+	margin-left: 4px;
+	margin-top: 2px;
+	
+}
+.headtop .goods .right{
+	color: #fff;
+	margin-left: 54px;
+	margin-top: -28px;
+}
+/*neadtop=======end*/
+.head{
+	width: 100%;
+	height: 45px;
+	background-color: #ff6537;
+}
+.head .nav{
+	width: 1200px;
+	height: 45px;
+	/*background-color: palegreen;*/
+	margin: 0 auto ;
+}
+.head .nav .nav1{
+	width: 220px;
+	height: 45px;
+	background-color: #f85727;
+	position: relative;
+}
+.head .nav .nav1 img{
+	margin: 0;
+	width: 70px;
+	height: 45px;
+	position: absolute;
+	left: 0;
+	}
+#listtop{
+	width: 220px;
+	height: 45px;
+	cursor: pointer;
+}
+.head .nav .nav1 p{
+	color: #fff;
+	margin-left: 72px;
+	position: absolute;
+	top: 14px;
+	}
+.head .nav .nav1 .nav1_list{
+	width: 220px;
+	position: absolute;
+	top: 46px;	
+}
+.head .nav .nav1 .nav1_list li{
+	list-style: none;
+	background-color: #f7f7f7;
+	height:60px;
+	line-height: 60px;
+	padding-left:30px ;
+}
+.head .nav .nav1 .nav1_list li:hover{
+	border: 1px solid red;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #999;
+}
+.head .nav .nav1 .nav2{
+	width: 935px;
+	height: 45px;
+	/*background-color: palevioletred;*/
+	float: left;
+	margin-top: -45px;
+	margin-left: 265px;
+}
+.head .nav .nav1 .nav2 li{
+	display: block;
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	width: 120px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.head .nav .nav1 .nav2 li:hover{
+	background-color: #fff;
+	color:#f85727 ;
+}
+.banner{
+	width: 100%;
+	height: 520px;
+	background-color: peru;
+	margin-top: 20px;
+}
